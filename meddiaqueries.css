@@ -1,0 +1,137 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-container {
+    flex-wrap: wrap;
+  }
+  .certificates-detail-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #education,
+  .education-details-container {
+    margin-top: 2rem;
+  }
+  #skills,
+  .skills1 {
+    margin-top: 2rem;
+  }
+  .skill-containers {
+    margin-top: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #certificates {
+    margin-top: 2rem;
+  }
+
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .icon {
+    cursor: pointer;
+    height: 2rem;
+  }
+  .icon:hover {
+    transform: scale(1.5);
+    transition: all 2s linear;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  .about_1 {
+    margin-top: 3rem;
+  }
+  .titleabout {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section_pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 1rem;
+  }
+  .about-container {
+    margin-top: 0;
+  }
+  .about-pic {
+    border-radius: 1rem;
+    margin-left: 3rem;
+    border: 2px solid;
+    border-color: rgb(163, 163, 163);
+  }
+  .hamburger-icon {
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+  }
+  .hamburger-icon span {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+  }
+}
+@media screen and (max-width: 600px) {
+  #contact {
+    height: 30vh;
+    /* flex-direction: row; */
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  .about-container, .btn-container ,
+  .contact-info-upper-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p{
+    font-size: 1rem;
+  }
+  .section_pic-container{
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .title{
+    font-size: 2rem;
+  }
+  .logo{
+    font-size: 1.5rem;
+  }
+  h2.btn-container{
+    font-size: 1rem;
+  }
+}
+
